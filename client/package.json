@@ -1,5 +1,5 @@
 {
-  "name": "my-olx-interface",
+  "name": "bookstore-interface",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

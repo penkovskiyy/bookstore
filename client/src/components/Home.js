@@ -82,7 +82,7 @@ class Home extends React.Component {
             <div id="main-content" className="row">
               <div
                 id="catagory"
-                className="col-md-6 col-sm-6 col-xs-6 col-lg-6"
+                className="col-md-10 col-sm-10 col-xs-10 col-lg-10 container"
               >
                 {this.state.category.map((item, i) => {
                   return (
@@ -92,24 +92,14 @@ class Home extends React.Component {
                         <img
                           src={item.ic}
                           alt={item.cate}
-                          height="50"
-                          width="50"
+                          height="100"
+                          width="100"
                         />
                         <p>{item.cate}</p>
                       </div>
                     </NavLink>
                   )
                 })}
-              </div>
-
-              <div id="follow" className="col-md-4 col-sm-4  col-xs-4 col-lg-4">
-                <img
-                  src={
-                    'https://fbcd.co/product-lg/ce716b231574f32f8bc09ed10aa3b04a_resize.JPG'
-                  }
-                  height="300"
-                  id="follow-us"
-                />
               </div>
             </div>
           </div>

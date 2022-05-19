@@ -79,6 +79,90 @@ class Home extends React.Component {
                 </div>
               </div>
             </div>
+
+            <div
+              id="slider"
+              className="carousel slide container "
+              data-ride="carousel"
+            >
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <img
+                    className="d-block w-100"
+                    src={
+                      'https://www.mockupworldhq.com/wp-content/uploads/2019/04/Free-Book-Cover-Mockup.jpg'
+                    }
+                    alt="First slide"
+                    height="450"
+                  />
+
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>WELCOME TO OUR ONLINE BOOKSTORE!</h5>
+                    <p>
+                      Some representative placeholder content for the first
+                      slide.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="carousel-item ">
+                  <img
+                    className="d-block w-100"
+                    src={
+                      'https://mir-s3-cdn-cf.behance.net/project_modules/fs/bd07bc42883613.57db00bcc7fe9.jpg'
+                    }
+                    alt="Second slide"
+                    height="450"
+                  />
+
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>SECRET BOOK</h5>
+                    <p>Special rubric created for you.</p>
+                  </div>
+                </div>
+
+                <div className="carousel-item">
+                  <img
+                    className="d-block w-100"
+                    src={
+                      'https://www.netherlandsandyou.nl/binaries/large/content/gallery/netherlandsandyou/content-afbeeldingen/china/2017/09/rijtje-bvb-2016.jpg'
+                    }
+                    alt="Third slide"
+                    height="450"
+                  />
+
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>FREE BOOK</h5>
+                    <p>Read for free or give a book a second life.</p>
+                  </div>
+                </div>
+              </div>
+              <a
+                className="carousel-control-prev"
+                href="#slider"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  className="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span className="sr-only">Previous</span>
+              </a>
+              <a
+                className="carousel-control-next"
+                href="#slider"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  className="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span className="sr-only">Next</span>
+              </a>
+            </div>
+
             <div id="main-content" className="row">
               <div
                 id="catagory"

@@ -10,7 +10,7 @@ class Footer extends React.Component {
     return (
       <div id="footer" className="container-fluid">
         <div id="footer-detail">
-          {/* <img src={logo} alt="Logo" id="flogo" height="60" width="60" /> */}
+          <img src={logo} alt="Logo" id="flogo" height="60" width="60" />
           <small>&copy; Copyright 2022, BookStore</small>
           <div style={{ float: 'right' }}>
             <p>We are on social media</p>

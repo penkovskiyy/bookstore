@@ -166,7 +166,7 @@ class SingleProduct extends React.Component {
                     paddingLeft: '40px',
                   }}
                 >
-                  <a src="">WhatsApp</a>
+                  <a href="https://wa.link/v24xiq">WhatsApp</a>
                 </p>
 
                 <p style={{ textAlign: 'center', fontSize: '18px' }}>

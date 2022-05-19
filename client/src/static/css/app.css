@@ -1,7 +1,7 @@
 #footer {
     background-image: url('https://olxpkstatic-a.akamaihd.net/22450d5-985/packed/img/2f5a55d0886ecadd34c360ff1ff11fc9e6.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     border-top: 1px solid rgb(184, 215, 233);
     padding: 20px;
 }
@@ -100,7 +100,11 @@
     margin-left: 5px;
     margin-top: 10px;
 }
+/* slider */
+ #slider {
+     margin-bottom: 50px;
 
+}
 /* Validation */
 .form-error {
     color:red;

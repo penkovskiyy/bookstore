@@ -33,27 +33,23 @@ export var cities = {
   ],
   'Akmola region': [
     {
-      city: 'Kokshetau',
+      city: 'Kosshy',
       admin: 'Akmola region',
       country: 'Kazakhstan',
     },
+    {
+      city: 'Stepnogorsk',
+      admin: 'Akmola region',
+      country: 'Kazakhstan',
+    },
+
   ],
   'Aktobe region': [
     {
       city: 'Aktobe',
       admin: 'Aktobe region',
       country: 'Kazakhstan',
-    },
-    {
-      city: 'Aktobe 1',
-      admin: 'Aktobe region',
-      country: 'Kazakhstan',
-    },
-    {
-      city: 'Aktobe 2',
-      admin: 'Aktobe region',
-      country: 'Kazakhstan',
-    },
+    }
   ],
   'Almaty region': [
     {
@@ -62,12 +58,12 @@ export var cities = {
       country: 'Kazakhstan',
     },
     {
-      city: 'Taldykorgan 2',
+      city: 'Kapshagai',
       admin: 'Almaty region',
       country: 'Kazakhstan',
     },
     {
-      city: 'Taldykorgan 3',
+      city: 'Tekeli',
       admin: 'Almaty region',
       country: 'Kazakhstan',
     },
@@ -77,17 +73,7 @@ export var cities = {
       city: 'Atyrau',
       admin: 'Atyrau region',
       country: 'Kazakhstan',
-    },
-    {
-      city: 'Atyrau 2',
-      admin: 'Almaty region',
-      country: 'Kazakhstan',
-    },
-    {
-      city: 'Atyrau 3',
-      admin: 'Almaty region',
-      country: 'Kazakhstan',
-    },
+    }
   ],
   'East Kazakhstan region': [
     {
@@ -96,14 +82,10 @@ export var cities = {
       country: 'Kazakhstan',
     },
     {
-      city: 'Ust-Kamenogorsk 2',
+      city: 'Ridder',
       admin: 'East Kazakhstan region',
       country: 'Kazakhstan',
     },
-    {
-      city: 'Ust-Kamenogorsk     3',
-      admin: 'East Kazakhstan region',
-      country: 'Kazakhstan',
-    },
+    
   ],
 }

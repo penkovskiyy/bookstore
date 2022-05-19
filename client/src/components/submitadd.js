@@ -154,8 +154,9 @@ class SubmitAdd extends React.Component {
                   name="_userId"
                   defaultValue={_userId._id}
                 />
+{/*real change  */}
                 <label>
-                  <b>Title Of Your Book</b>
+                  <b>Book title, Author</b>
                   <span style={{ color: 'red' }}>*</span>
                 </label>
                 <input
@@ -165,26 +166,14 @@ class SubmitAdd extends React.Component {
                   name="title"
                   required
                   maxLength="70"
+                  placeholder='Book title, Author'
                 />
-                <small id="title" className="form-text text-muted">
+                 <small id="title" className="form-text text-muted">
                   Maximum 120 characters
                 </small>
                 <br />
                 <br />
-                <label>
-                  <b>Author</b>
-                  <span style={{ color: 'red' }}>*</span>
-                </label>
-                <input
-                  type="text"
-                  id="title"
-                  className="form-control"
-                  name="title"
-                  required
-                  maxLength="70"
-                />
-                <br />
-                <br />
+
                 <label>
                   <b>Genre</b>
                   <span style={{ color: 'red' }}>*</span>
@@ -278,6 +267,7 @@ class SubmitAdd extends React.Component {
                     onChange={this.onchange}
                     name="img2"
                     id="img2"
+                    required
                   />
                   <label htmlFor="img2" className="custom-file-label">
                     {this.state.img2}
@@ -290,6 +280,7 @@ class SubmitAdd extends React.Component {
                     onChange={this.onchange}
                     name="img3"
                     id="img3"
+                    required
                   />
                   <label htmlFor="img3" className="custom-file-label">
                     {this.state.img3}
@@ -302,6 +293,7 @@ class SubmitAdd extends React.Component {
                     onChange={this.onchange}
                     name="img4"
                     id="img4"
+                    required
                   />
                   <label htmlFor="img4" className="custom-file-label">
                     {this.state.img4}
@@ -370,7 +362,7 @@ class SubmitAdd extends React.Component {
                       name="city"
                       required
                     >
-                      <option value="">Choose Region</option>
+                      <option value="">Choose City</option>
 
                       {selectindex !== undefined &&
                         allcities[selectindex].map((item) => {

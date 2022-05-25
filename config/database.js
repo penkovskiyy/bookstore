@@ -1,4 +1,4 @@
 module.exports = {
-  database: 'mongodb://localhost:27017/book',
+  database: 'mongodb+srv://admin:admin@jwt.ria8g.mongodb.net/book',
   secret: 'OurSecret',
 }

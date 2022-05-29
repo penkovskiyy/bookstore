@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assests/logo.png'
+import logo from '../assests/logo.jpg'
 import '../static/css/app.css'
 class Footer extends React.Component {
   constructor(props) {

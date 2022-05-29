@@ -3,7 +3,7 @@ import Header from './Header'
 import Footer from './footer'
 import '../static/css/submit.css'
 import { category } from '../config/category'
-import { province, cities } from '../config/pakistan'
+import { province, cities } from '../config/cities'
 import axios from 'axios'
 import NotificationSystem from 'react-notification-system'
 
@@ -321,7 +321,7 @@ class SubmitAdd extends React.Component {
                   id="phone"
                   name="phone"
                   className="form-control"
-                  placeholder="+77"
+                  placeholder="77"
                   required
                 />
                 <br />

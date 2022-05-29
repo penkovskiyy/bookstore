@@ -90,18 +90,14 @@ class Home extends React.Component {
                   <img
                     className="d-block w-100"
                     src={
-                      'https://www.mockupworldhq.com/wp-content/uploads/2019/04/Free-Book-Cover-Mockup.jpg'
-                    }
+                      'https://data.1freewallpapers.com/download/book-inscription-words-flower-white-minimalism-1920x1200.jpg'}
                     alt="First slide"
                     height="450"
                   />
 
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>WELCOME TO OUR ONLINE BOOKSTORE!</h5>
-                    <p>
-                      Some representative placeholder content for the first
-                      slide.
-                    </p>
+                    <h2 style={{color: "black"}}>WELCOME TO OUR ONLINE BOOKSTORE!</h2>
+                    
                   </div>
                 </div>
 
@@ -116,8 +112,8 @@ class Home extends React.Component {
                   />
 
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>SECRET BOOK</h5>
-                    <p>Special rubric created for you.</p>
+                    <h3 style={{color: "black"}} >SECRET BOOK</h3>
+                    <b style={{color: "black"}}>Special rubric created for you.</b>
                   </div>
                 </div>
 
@@ -125,15 +121,15 @@ class Home extends React.Component {
                   <img
                     className="d-block w-100"
                     src={
-                      'https://www.netherlandsandyou.nl/binaries/large/content/gallery/netherlandsandyou/content-afbeeldingen/china/2017/09/rijtje-bvb-2016.jpg'
+                      'https://www.mockupworldhq.com/wp-content/uploads/2019/04/Free-Book-Cover-Mockup.jpg'
                     }
                     alt="Third slide"
                     height="450"
                   />
 
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>FREE BOOK</h5>
-                    <p>Read for free or give a book a second life.</p>
+                    <h3 style={{color: "black"}}>FREE BOOK</h3>
+                    <b style={{color: "black"}}>Read for free or give a book a second life.</b>
                   </div>
                 </div>
               </div>

@@ -44,7 +44,7 @@ class List extends React.Component {
             {this.state.category1.map((item) => {
               return (
                 <div className="col-md-3" key={item.cate}>
-                  <NavLink to="/">
+                  <NavLink to={`${item.cate}`} onClick={this.forceUpdate}>
                     <p id="cate-ad">{item.cate} </p>
                   </NavLink>
                 </div>

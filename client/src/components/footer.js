@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from '../assests/logo.jpg'
 import '../static/css/app.css'
 class Footer extends React.Component {
   constructor(props) {
@@ -10,10 +9,10 @@ class Footer extends React.Component {
     return (
       <footer class="sticky-footer">
         <ul>
-          <li> <a href="">Instagram</a> <br></br> </li>
-          <li> <a href="">Facebook</a> <br></br> </li>
-          <li> <a href="">Twitter</a> <br></br> </li>
-          <li> <a href="">TikTok</a> <br></br> </li>
+          <li> <a href="/">Instagram</a> <br></br> </li>
+          <li> <a href="/">Facebook</a> <br></br> </li>
+          <li> <a href="/">Twitter</a> <br></br> </li>
+          <li> <a href="/">TikTok</a> <br></br> </li>
         </ul>
 
         <p>&copy; Copyright 2022 by BookStore</p>

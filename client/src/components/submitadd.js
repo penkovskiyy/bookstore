@@ -3,7 +3,7 @@ import Header from './Header'
 import Footer from './footer'
 import '../static/css/submit.css'
 import { category } from '../config/category'
-import { province, cities } from '../config/pakistan'
+import { province, cities } from '../config/cities'
 import axios from 'axios'
 import NotificationSystem from 'react-notification-system'
 
@@ -156,8 +156,8 @@ class SubmitAdd extends React.Component {
                 />
 {/*real change  */}
                 <label>
-                  <b>Book title, Author</b>
-                  <span style={{ color: 'red' }}>*</span>
+                  <b>Book title, Author</b> <span style={{ color: 'red' }}>*</span> 
+                  <p>For <b>Secret book</b> write a quote</p> 
                 </label>
                 <input
                   type="text"
@@ -233,6 +233,7 @@ class SubmitAdd extends React.Component {
                 <label>
                   <b>Ad Description</b>
                   <span style={{ color: 'red' }}>*</span>
+                  
                 </label>
                 <textarea
                   cols={60}
@@ -246,6 +247,7 @@ class SubmitAdd extends React.Component {
                 <label>
                   <b>Upload Photos</b>
                   <span style={{ color: 'red' }}>*</span>
+                  <p>Upload some <i>secret photos </i> for <b>Secret Book</b></p>
                 </label>
                 <div className="custom-file mb-3">
                   <input
@@ -273,32 +275,6 @@ class SubmitAdd extends React.Component {
                     {this.state.img2}
                   </label>
                 </div>
-                <div className="custom-file mb-3">
-                  <input
-                    type="file"
-                    className="custom-file-input"
-                    onChange={this.onchange}
-                    name="img3"
-                    id="img3"
-                    required
-                  />
-                  <label htmlFor="img3" className="custom-file-label">
-                    {this.state.img3}
-                  </label>
-                </div>
-                <div className="custom-file mb-3">
-                  <input
-                    type="file"
-                    className="custom-file-input"
-                    onChange={this.onchange}
-                    name="img4"
-                    id="img4"
-                    required
-                  />
-                  <label htmlFor="img4" className="custom-file-label">
-                    {this.state.img4}
-                  </label>
-                </div>
                 <hr />
                 <label>
                   <b>Your Name</b>
@@ -321,7 +297,7 @@ class SubmitAdd extends React.Component {
                   id="phone"
                   name="phone"
                   className="form-control"
-                  placeholder="+77"
+                  placeholder="77"
                   required
                 />
                 <br />

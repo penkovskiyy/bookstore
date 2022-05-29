@@ -26,16 +26,6 @@ class Account extends React.Component {
                 You'r Ads
               </a>
             </li>
-            <li className="nav-item">
-              <a
-                className="nav-link"
-                data-toggle="tab"
-                href="#panel2"
-                role="tab"
-              >
-                Messages
-              </a>
-            </li>
           </ul>
           <div className="tab-content card" id="tabcard">
             <div

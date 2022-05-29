@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assests/logo.png'
+import logo from '../assests/logo.jpg'
 import '../static/css/header.css'
 import { NavLink } from 'react-router-dom'
 
@@ -22,7 +22,7 @@ class Header extends React.Component {
               <NavLink to='/'><img src={logo} alt="Logo" id="logo" /></NavLink>
             </div>
             <div id="slogon">
-              <h4>Book Store</h4>
+            <NavLink to='/'><h4>Book Store</h4></NavLink>
             </div>
           </div>
           <div className="flexbtn" id="btn-group">

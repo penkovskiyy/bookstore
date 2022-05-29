@@ -1,111 +1,158 @@
-#footer {
-  background-image: url('https://olxpkstatic-a.akamaihd.net/22450d5-985/packed/img/2f5a55d0886ecadd34c360ff1ff11fc9e6.png');
-  background-repeat: no-repeat;
-  /* background-size: cover; */
-  border-top: 1px solid rgb(184, 215, 233);
-  padding: 20px;
+footer p{
+    padding:0;
+    font-size: 0.8em;
+    margin: 1em 0;
+    font-size: 1rem;
+    color: rgb(147, 211, 253);
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    margin: 1em 0; 
+}
+footer ul li a{
+    padding: 1em; 
+    text-decoration: none;
+    color: #69b3e3;
+    transition: 100ms;
+}
+footer ul li a:hover{
+    color: #00416c;
 }
 
-#footer-detail {
-  height: 200px;
-  max-width: 700px;
-  margin: 0px auto;
+footer{
+    width: 100%;
+    border-top: 1px solid rgb(184, 215, 233); 
+    display: grid;
+    place-items: center;
+    padding: 2em; 
+    font-size: 1.2rem;
+}
+
+
+body{
+    min-height: 100vh;
+}
+
+.sticky-footer{
+    position: sticky;
+    top: 100%;
 }
 
 #form-bg {
-  height: auto;
-  background-image: url('https://www.print-services.com/files/products_images/10000013969/10000013969.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 15px;
+    height: auto;
+    background-image: url('https://www.print-services.com/files/products_images/10000013969/10000013969.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:15px;
 }
 
 #form-overlay {
-  height: 70px;
-  max-width: 1000px;
-  background-color: rgb(200, 223, 241);
-  margin: auto;
-  padding: 10px;
-  border-radius: 5px;
+    height: 70px;
+    max-width: 1000px;
+    background-color: rgb(200, 223, 241);
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 #search-btn {
-  border: 2px solid white;
+    
+    border: 2px solid white;
 }
 
-#ads,
-#location {
-  padding-left: 40px;
+#ads, #location{
+    padding-left: 40px;
 }
 
-#iconform,
-#iconform2 {
-  position: relative;
+#iconform, #iconform2{
+    position: relative;
 }
 
-#iconform i,
-#iconform2 i {
-  position: absolute;
-  top: 0px;
-  left: 5px;
-  padding: 9px;
-  font-size: 22px;
-  color: rgb(187, 228, 255);
+#iconform i, #iconform2 i{
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    padding: 9px;
+    font-size: 22px;
+    color: rgb(187, 228, 255);
 }
 
-#iconform i {
-  position: absolute;
-  top: 0px;
-  left: 20px;
-  padding: 9px;
-  font-size: 22px;
-  color: lightgray;
+#iconform i{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    padding: 9px;
+    font-size: 22px;
+    color: lightgray;
 }
 
 #cate-item {
-  width: 140px;
-  height: 140px;
-  float: left;
-  margin: 22px;
+    width: 140px;
+    height: 140px;
+    float: left;
+    margin:22px;
 }
-#cate-item:hover {
-  background-color: rgb(147, 211, 253);
-  border-radius: 10px;
+#cate-item:hover 
+{
+    background-color: rgb(147, 211, 253);
+    border-radius: 10px;
 }
 
 #cate-item img {
-  margin: 5px;
-  margin-left: 20px;
+    margin: 5px;
+    margin-left: 20px;
 }
 
 #cate-item p {
-  font-size: 17px;
-  text-align: center;
+    font-size: 17px;
+    text-align: center;
 }
 
+#follow-us {
+    margin-top: 30px;
+    margin-left: 70px;
+     border-radius: 10px;
+
+}
+
+#follow-us p {
+    float: left;
+    padding:20px;
+}
+
+#follow-us img {
+    float: right;
+    padding-right: 15px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
 /* slider */
-#slider {
-  margin-bottom: 50px;
+ #slider {
+     margin-bottom: 50px;
+
 }
 /* Validation */
 .form-error {
-  color: red;
+    color:red;
 }
 
 @media only screen and (max-width: 769px) {
-  #main-content {
-    margin-top: 20px;
-  }
+    #main-content {
+        margin-top: 20px;
+    }
+    
+    #form-overlay {
+        height: 150px;
+    }
+    input[type=text] {
+        height: 30px;
+        margin-right:5px;
+        margin-top: 5px;
+    }
+    #search-btn {
+        margin-top: 5px;
+        
 
-  #form-overlay {
-    height: 150px;
-  }
-  input[type='text'] {
-    height: 30px;
-    margin-right: 5px;
-    margin-top: 5px;
-  }
-  #search-btn {
-    margin-top: 5px;
-  }
+    }
 }

@@ -28,6 +28,7 @@ class SingleProduct extends React.Component {
       .catch((err) => console.error(err))
   }
   render() {
+    
     const { data } = this.state
     return (
       <div>
@@ -62,6 +63,8 @@ class SingleProduct extends React.Component {
                 </p>
               </div>
               <div id="slider" className="carousel slide" data-ride="carousel">
+              
+
                 <div className="carousel-inner">
                   <div className="carousel-item active">
                     {data !== undefined && (
@@ -72,6 +75,7 @@ class SingleProduct extends React.Component {
                         }
                         alt="First slide"
                         height="450"
+                        
                       />
                     )}
                   </div>
@@ -82,36 +86,14 @@ class SingleProduct extends React.Component {
                         src={
                           'http://localhost:5000/uploads/' + data[0].photo[1]
                         }
+                        
                         alt="Second slide"
                         height="450"
                       />
                     )}
                   </div>
-                  <div className="carousel-item">
-                    {data !== undefined && (
-                      <img
-                        className="d-block w-100"
-                        src={
-                          'http://localhost:5000/uploads/' + data[0].photo[2]
-                        }
-                        alt="Three slide"
-                        height="450"
-                      />
-                    )}
-                  </div>
-                  <div className="carousel-item">
-                    {data !== undefined && (
-                      <img
-                        className="d-block w-100"
-                        src={
-                          'http://localhost:5000/uploads/' + data[0].photo[3]
-                        }
-                        alt="Four slide"
-                        height="450"
-                      />
-                    )}
-                  </div>
                 </div>
+                
                 <a
                   className="carousel-control-prev"
                   href="#slider"
@@ -158,22 +140,33 @@ class SingleProduct extends React.Component {
                   ></i>{' '}
                   &nbsp;&nbsp;{data !== undefined ? data[0].name : ''}
                 </p>
-                <p
+
+                { data !== undefined && (
+                    <p
                   style={{
-                    color: 'green',
+                    fontWeight: 'bold',
+                    color: '#3FB551',
                     lineHeight: '0px',
-                    fontSize: '11px',
+                    fontSize: '15px',
                     paddingLeft: '40px',
+                
                   }}
                 >
-                  <a href="https://wa.link/v24xiq">WhatsApp</a>
+                  <a href={'https://wa.me/' + data[0].phone}
+                  style={{
+                    color:'green',
+                  }}> 
+                  
+                  <i class="fa-brands fa-whatsapp"></i> WhatsApp</a>                 
                 </p>
+                  ) }
 
                 <p style={{ textAlign: 'center', fontSize: '18px' }}>
                   <i className="fas fa-phone"></i>{' '}
                   {data !== undefined ? data[0].phone : ''}
                 </p>
               </div>
+             
 
               <div id="tips">
                 <p style={{ textAlign: 'center', fontWeight: 'bold' }}>

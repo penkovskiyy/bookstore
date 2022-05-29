@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assests/logo.png'
+import logo from '../assests/logo.jpg'
 import '../static/css/app.css'
 class Footer extends React.Component {
   constructor(props) {
@@ -8,19 +8,16 @@ class Footer extends React.Component {
   }
   render() {
     return (
-      <div id="footer" className="container-fluid">
-        <div id="footer-detail">
-          <img src={logo} alt="Logo" id="flogo" height="60" width="60" />
-          <small>&copy; Copyright 2022, BookStore</small>
-          <div style={{ float: 'right' }}>
-            <p>We are on social media</p>
-            <a href="">Instagram</a> <br></br>
-            <a href="">Facebook</a> <br></br>
-            <a href="">TikTok</a> <br></br>
-            <a href="">Twitter</a>
-          </div>
-        </div>
-      </div>
+      <footer class="sticky-footer">
+        <ul>
+          <li> <a href="">Instagram</a> <br></br> </li>
+          <li> <a href="">Facebook</a> <br></br> </li>
+          <li> <a href="">Twitter</a> <br></br> </li>
+          <li> <a href="">TikTok</a> <br></br> </li>
+        </ul>
+
+        <p>&copy; Copyright 2022 by BookStore</p>
+      </footer>
     )
   }
 }

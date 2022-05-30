@@ -52,34 +52,6 @@ class Home extends React.Component {
         <div id="container" className="container">
           <Header />
           <div id="content">
-            <div id="form-bg">
-              <div id="form-overlay">
-                <div className="row">
-                  <div className=" col-md-8 col-lg-8" id="iconform">
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="location"
-                      onKeyPress={this._handleKeyPress}
-                      placeholder="All Kazakhstan"
-                    />
-                    <i className="fa fa-map-marker-alt"></i>
-                  </div>
-
-                  <div className="col-md-2  col-lg-2">
-                    <button
-                      type="button"
-                      className="btn btn-outline-primary"
-                      id="search-btn"
-                    >
-                      <i className="fa fa-search"></i>
-                      Search
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
             <div
               id="slider"
               className="carousel slide container "
@@ -90,14 +62,16 @@ class Home extends React.Component {
                   <img
                     className="d-block w-100"
                     src={
-                      'https://data.1freewallpapers.com/download/book-inscription-words-flower-white-minimalism-1920x1200.jpg'}
+                      'https://data.1freewallpapers.com/download/book-inscription-words-flower-white-minimalism-1920x1200.jpg'
+                    }
                     alt="First slide"
                     height="450"
                   />
 
                   <div class="carousel-caption d-none d-md-block">
-                    <h2 style={{color: "black"}}>WELCOME TO OUR ONLINE BOOKSTORE!</h2>
-                    
+                    <h2 style={{ color: 'black' }}>
+                      WELCOME TO OUR ONLINE BOOKSTORE!
+                    </h2>
                   </div>
                 </div>
 
@@ -112,8 +86,10 @@ class Home extends React.Component {
                   />
 
                   <div class="carousel-caption d-none d-md-block">
-                    <h3 style={{color: "black"}} >SECRET BOOK</h3>
-                    <b style={{color: "black"}}>Special rubric created for you.</b>
+                    <h3 style={{ color: 'black' }}>SECRET BOOK</h3>
+                    <b style={{ color: 'black' }}>
+                      Special rubric created for you.
+                    </b>
                   </div>
                 </div>
 
@@ -128,8 +104,10 @@ class Home extends React.Component {
                   />
 
                   <div class="carousel-caption d-none d-md-block">
-                    <h3 style={{color: "black"}}>FREE BOOK</h3>
-                    <b style={{color: "black"}}>Read for free or give a book a second life.</b>
+                    <h3 style={{ color: 'black' }}>FREE BOOK</h3>
+                    <b style={{ color: 'black' }}>
+                      Read for free or give a book a second life.
+                    </b>
                   </div>
                 </div>
               </div>

@@ -6,12 +6,14 @@ export const category = [
   },
   { cate: 'Kids literature', ic: require('../assests/iconkids.png') },
   { cate: 'Self-help', ic: require('../assests/iconselfhelp.png') },
-  { cate: 'Computers & IT', ic: require('../assests/iconcomp.png') },
-  
+
   {
     cate: 'Classical literature',
     ic: require('../assests/iconliterature.png'),
   },
+
+  { cate: 'IT', ic: require('../assests/iconcomp.png') },
+
   { cate: 'Norms, law', ic: require('../assests/iconlaw.png') },
   { cate: 'Languages', ic: require('../assests/iconlang.png') },
   { cate: 'Business', ic: require('../assests/iconbus.png') },

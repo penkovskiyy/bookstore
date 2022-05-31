@@ -90,9 +90,9 @@ const ListItem = (props) => (
                   {item.price}
                 </p>
               </div>
-              <div id="item-icon">
+              {/* <div id="item-icon">
                 <i className="far fa-heart"></i>
-              </div>
+              </div> */}
             </div>
           </div>
         </NavLink>
